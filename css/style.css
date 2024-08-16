@@ -1,0 +1,843 @@
+/* ====================== start Genral ======================== */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+/* ====================== End Genral ========================== */
+
+/* <!-- ======================= 2-start Home ======================= --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Home {
+  background-image: linear-gradient(#00000084, #00000084),
+    url(../image/devalio01.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Home .my-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  z-index: 9999;
+
+}
+
+#Home .my-nav a:not(.black) {
+  color: #fff;
+}
+
+.my-nav .nav-logo {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.my-nav .my-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+#Home .home-cap {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+/* .navbar .yo ul {
+  display: none;
+}
+
+.navbar .yo:hover .na {
+  display: block;
+} */
+
+#Home .home-cap h1 {
+  font-size: 55px;
+  line-height: 70px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.test::after {
+  content: "";
+  animation: typing 15s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "";
+  }
+  3.125% {
+    content: "D";
+  }
+  6.25% {
+    content: "De |";
+  }
+  9.375% {
+    content: "Des |";
+  }
+  12.5% {
+    content: "Desi |";
+  }
+  15.625% {
+    content: "Desig |";
+  }
+  18.75% {
+    content: "Design |";
+  }
+  21.875% {
+    content: "Designe |";
+  }
+  25% {
+    content: "Designer |";
+  }
+  25% {
+    content: "Designer |";
+  }
+  28.125% {
+    content: "D |";
+  }
+  31.25% {
+    content: "De |";
+  }
+  34.375% {
+    content: "Dev |";
+  }
+  37.5% {
+    content: "Devo |";
+  }
+  40.625% {
+    content: "Devol |";
+  }
+  43.75% {
+    content: "Devolp |";
+  }
+  46.875% {
+    content: "Devolpe |";
+  }
+  50% {
+    content: "Devolper |";
+  }
+  50% {
+    content: "Devolper |";
+  }
+  52.5% {
+    content: "F |";
+  }
+  55% {
+    content: "Fr |";
+  }
+  57.5% {
+    content: "Fre |";
+  }
+  60% {
+    content: "Free |";
+  }
+  62.5% {
+    content: "Freel |";
+  }
+  65% {
+    content: "Freela |";
+  }
+  67.5% {
+    content: "Freelan |";
+  }
+  70% {
+    content: "Freelanc |";
+  }
+  72.5% {
+    content: "Freelance |";
+  }
+  75% {
+    content: "Freelancer |";
+  }
+  75% {
+    content: "Freelancer |";
+  }
+  77.27272727272727% {
+    content: "P |";
+  }
+  79.54545454545455% {
+    content: "Ph |";
+  }
+  81.81818181818181% {
+    content: "Pho |";
+  }
+  84.0909090909091% {
+    content: "Phot |";
+  }
+  86.36363636363636% {
+    content: "Photo |";
+  }
+  88.63636363636364% {
+    content: "Photog |";
+  }
+  90.9090909090909% {
+    content: "Photogr |";
+  }
+  93.18181818181819% {
+    content: "Photogra |";
+  }
+  95.45454545454545% {
+    content: "Photograp |";
+  }
+  97.72727272727273% {
+    content: "Photograph |";
+  }
+  100% {
+    content: "Photographr |";
+  }
+  100% {
+    content: "Photographr |";
+  }
+}
+
+
+
+ body:has(#Home:target) .home {
+  border-bottom: 1.5px solid #fff;
+ 
+}
+
+body:has(#About:target) .About {
+  border-bottom: 1.5px solid #fff;
+ 
+
+}
+
+body:has(#Services:target) .Services {
+  border-bottom: 1.5px solid #fff;
+}
+
+body:has(#Work:target) .Work {
+  border-bottom: 1.5px solid #fff;
+}
+
+body:has(#blog:target) .blog {
+  border-bottom: 1.5px solid #fff;
+}
+
+body:has(#contact:target) .contact {
+  border-bottom: 1.5px solid #fff;
+} 
+
+.navbar .na{
+  display: none;
+}
+
+.navbar .yo:hover .na{
+  display: block;
+}
+
+.navbar .ham{
+  display: none;
+}
+
+.navbar .mj:hover .ham{
+  display: block;
+  position: absolute;
+  top: 40%;
+  right:  40%;
+  transform: translate(-50% , -50%);
+}
+
+/* <!-- ======================= End Home ======================= --> */
+
+/* <!-- ======================= 3-start About ======================= --> */
+#About {
+  background-color: rgba(128, 128, 128, 0.066);
+}
+
+#About .bg {
+  background-color: #fff;
+}
+
+/* border-bottom: 4px solid #0078FF; */
+
+#About .cap {
+  font-size: 32px;
+  line-height: 38px;
+  color: rgb(30, 30, 30);
+  font-weight: 500;
+  position: relative;
+}
+
+#About .cap::after {
+  content: "";
+  position: absolute;
+  background-color: #0078ff;
+  height: 3px;
+  width: 100px;
+  top: 120%;
+  left: 0;
+}
+
+#About .p {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(78, 78, 78);
+  font-weight: 300;
+}
+
+#About .style {
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(30, 30, 30);
+  font-weight: 600;
+}
+
+#About .spa {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+/* <!-- ======================= End About ======================= --> */
+
+/* <!-- ======================= 4-start services ======================= --> */
+#Services {
+  background-color: rgba(128, 128, 128, 0.107);
+}
+
+#Services .serv-cap h2 {
+  font-size: 48px;
+  line-height: 58px;
+  color: rgb(30, 30, 30);
+  font-weight: 700;
+}
+
+#Services .serv-cap p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+  /* position: relative; */
+}
+
+/* #Services p::after {
+  content: "";
+  position: absolute;
+
+  background-color: #0078ff;
+  height: 5px;
+  width: 50px;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+#Services .pos {
+  position: relative;
+}
+
+#Services .ico {
+  height: 90px;
+  width: 90px;
+  border: 10px solid #0078ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+#Services .hv:hover .ico {
+  border: 10px solid #ffffff9c;
+  background-color: #0078ff;
+}
+
+#Services p:not(.hamada) {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+#Services h3 {
+  font-size: 22px;
+  line-height: 27px;
+  color: rgb(30, 30, 30);
+  font-weight: 500;
+}
+
+/* <!-- ======================= End services ======================= --> */
+
+/* <!-- ======================= 5-start Coainters ======================= --> */
+
+.caointer {
+  background-attachment: fixed;
+  background-image: linear-gradient(#2963dfbb, #2963dfbb),
+    url(../image/devalio03.jpg);
+  background-position: center center;
+  background-size: cover cover;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.caointer .c {
+  position: relative;
+}
+
+.caointer .c-1 {
+  height: 90px;
+  width: 90px;
+  border: 10px solid #cde1f8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+/* <!-- ======================= End Coainters ======================= --> */
+
+/* <!-- ======================= 6-start work ======================= --> */
+#Work {
+  background-color: #0000000c;
+}
+
+#Work .work-cap h2 {
+  font-size: 48px;
+  line-height: 58px;
+  color: rgb(30, 30, 30);
+  font-weight: 700;
+}
+
+#Work .work-cap p {
+  font-size: 17px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+#Work p:not(.hamada) {
+  font-size: 19px;
+  line-height: 24px;
+  color: rgb(30, 30, 30);
+  font-weight: 500;
+}
+
+#Work .bg {
+  font-size: 13px;
+  line-height: 19px;
+  color: rgb(0, 120, 255);
+  font-weight: 400;
+}
+
+#Work .mon {
+  font-size: 13px;
+  line-height: 19px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+#Work .mo {
+  position: relative;
+}
+#Work .h {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Work .icon {
+  height: 40px;
+  width: 40px;
+  border: 3px solid #0078ff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10%;
+  left: 100%;
+  transform: translateX(-120%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Work .img {
+  transition: 1s;
+}
+
+#Work .se {
+  overflow: hidden;
+}
+
+#Work .servi:hover .img {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+/* <!-- ======================= End work ======================= --> */
+
+/* <!-- ======================= 7-start Slider ======================= --> */
+
+.my-slider {
+  background-attachment: fixed;
+  background-image: linear-gradient(#2963dfd2, #2963dfd2),
+    url(../image/devalio10.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.my-slider h2 {
+  font-size: 22px;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.my-slider p {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  text-indent: 0;
+  background-color: #fff;
+}
+
+/* <!-- ======================= End Slider ======================= --> */
+
+/* <!-- ======================= 8-start Blog ======================= --> */
+
+#blog {
+  background-color: #0000000c;
+}
+#blog .blog-cap h2 {
+  font-size: 48px;
+  line-height: 58px;
+  color: rgb(30, 30, 30);
+
+  font-weight: 700;
+}
+
+#blog .blog-cap .hamada {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+  /* position: relative; */
+}
+
+#blog .imagee {
+  width: 70%;
+}
+#blog .img {
+  position: relative;
+}
+
+#blog .gg {
+  height: 22px;
+  width: 70px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog .gg span,
+#blog .ggg span {
+  color: #fff;
+  font-size: 12px;
+}
+
+#blog .blo-cap {
+  width: 25%;
+}
+
+#blog .blog-cap {
+  position: relative;
+}
+
+#blog .line::after {
+  content: "";
+  height: 5px;
+  width: 50px;
+  position: absolute;
+  background-color: #0078ff;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Services .serv-cap {
+  position: relative;
+}
+
+#Services .line::after {
+  content: "";
+  height: 5px;
+  width: 50px;
+  position: absolute;
+  background-color: #0078ff;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Work .work-cap {
+  position: relative;
+}
+
+#Work .line::after {
+  content: "";
+  height: 5px;
+  width: 50px;
+  position: absolute;
+  background-color: #0078ff;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#blog .color-bord {
+  border-top: 2px solid #00000021;
+  background-color: rgba(128, 128, 128, 0.016);
+  padding: 5px;
+}
+
+#blog .my-p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+
+  padding: 0 15px;
+}
+
+#blog .my-span {
+  font-size: 13px;
+  line-height: 10px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+#blog .h5 {
+  font-size: 21px;
+  line-height: 25px;
+  color: rgb(30, 30, 30);
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+/* <!-- ======================= End Blog ======================= --> */
+
+/* <!-- ======================= 9-start Contact ======================= --> */
+#contact {
+  background-image: linear-gradient(#0077ff70, #0077ff70),
+    url(../image/devalio10.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  padding: 20px 0;
+}
+#contact .moo {
+  position: relative;
+}
+
+#contact .lin::after {
+  content: "";
+  position: absolute;
+  background-color: #0078ff;
+  height: 3px;
+  width: 120px;
+  top: 120%;
+  left: 5%;
+  margin: 10px 0;
+}
+
+#contact .lin {
+  font-size: 38px;
+  line-height: 32px;
+  color: rgb(30, 30, 30);
+  font-weight: 500;
+}
+
+#contact .ico1 i {
+  color: #0078ff;
+  margin-right: 10px;
+}
+
+#contact .par {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+#contact .bordeer {
+  border: 5px solid #0078ff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+#contact .ico2:hover .bordeer {
+  border: 5px solid #ffffff9c;
+  background-color: #0078ff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* <!-- ======================= End Contact ======================= --> */
+
+/* <!-- ======================= 10-start foater ======================= --> */
+.foatear {
+  background-color: #0078ff;
+  padding-bottom: 10px;
+}
+
+.foatear .f-h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.foatear span {
+  font-weight: 700;
+}
+
+.foatear .f-p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+/* <!-- ======================= End foater ======================= --> */
+
+@media screen and (min-width: 500px) and (max-width: 780px) {
+  #Home .home-cap h1 {
+    font-size: 20px;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+  #Home .my-btn {
+    background-color: #fff;
+  }
+  body:has(#Home:target) .home {
+    border-bottom: none;
+  }
+
+  body:has(#About:target) .About {
+    border-bottom: none;
+  }
+
+  body:has(#Services:target) .Services {
+    border-bottom: none;
+  }
+
+  body:has(#Work:target) .Work {
+    border-bottom: none;
+  }
+
+  body:has(#blog:target) .blog {
+    border-bottom: none;
+  }
+  /* ======= */
+  #blog .imagee::after {
+    top: 57%;
+  }
+
+  #blog .imageee::after {
+    top: 57%;
+  }
+}
+
+@media screen and (min-width: 781px) and (max-width: 1200px) {
+  #Home .home-cap h1 {
+    font-size: 33px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+  }
+  #Home .my-btn {
+    background-color: #fff;
+  }
+  body:has(#Home:target) .home {
+    border-bottom: none;
+  }
+
+  body:has(#About:target) .About {
+    border-bottom: none;
+  }
+
+  body:has(#Services:target) .Services {
+    border-bottom: none;
+  }
+
+  body:has(#Work:target) .Work {
+    border-bottom: none;
+  }
+
+  body:has(#blog:target) .blog {
+    border-bottom: none;
+  }
+  /* =========== */
+  #blog .imagee::after {
+    top: 25%;
+  }
+
+  #blog .imageee::after {
+    top: 25%;
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+  #blog .imagee::after {
+    top: 38%;
+  }
+
+  #blog .imageee::after {
+    top: 38%;
+  }
+}
+
+/* ============================ End Devalio ============================*/
